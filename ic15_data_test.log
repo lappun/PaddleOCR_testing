@@ -1,0 +1,180 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0406 02:05:14.546083 428484 init.cc:97] Before Parse: argc is 2, Init commandline: dummy --tryfromenv=enable_tracker_all2all,print_ir,multiple_of_cupti_buffer_size,use_virtual_memory_auto_growth,eager_delete_scope,tracer_mkldnn_ops_on,gpugraph_offload_param_stat,gpugraph_load_node_list_into_hbm,enable_dependency_builder_debug_info,pir_apply_inplace_pass,enable_api_kernel_fallback,enable_unused_var_check,enable_opt_get_features,call_stack_level,cublaslt_exhaustive_search_times,allreduce_record_one_event,check_kernel_launch,alloc_fill_value,reallocate_gpu_memory_in_mb,enable_gpu_memory_usage_log,multi_node_sample_use_gpu_table,gpugraph_parallel_copyer_split_maxsize,use_fast_math,print_allocator_trace_info,dygraph_debug,host_trace_level,search_cache_max_number,benchmark,new_executor_serial_run,gpugraph_parallel_stream_num,executor_log_deps_every_microseconds,cache_inference_while_scope,tracer_profile_fname,use_shm_cache,gpu_allocator_retry_time,enable_exit_when_partial_worker,new_executor_use_cuda_graph,ir_inplace_kernel_blacklist,apply_pass_to_program,graph_neighbor_size_percent,selected_gpus,gpugraph_slot_feasign_max_num,gpu_memory_limit_mb,sort_sum_gradient,graph_embedding_split_infer_mode,graph_load_in_parallel,enable_pir_api,gpugraph_force_device_batch_num_equal,use_system_allocator,max_inplace_grad_add,gpugraph_sparse_table_storage_mode,gpugraph_hbm_table_load_factor,fraction_of_cpu_memory_to_use,gpugraph_enable_gpu_direct_access,async_trace_count,gpugraph_storage_mode,gpugraph_enable_segment_merge_grads,enable_cublas_tensor_op_math,memory_fraction_of_eager_deletion,add_dependency_for_communication_op,sync_after_alloc,low_precision_op_list,enable_graph_multi_node_sampling,tensor_operants_mode,fraction_of_cuda_pinned_memory_to_use,enable_auto_rdma_trans,new_executor_use_local_scope,use_stream_safe_cuda_allocator,use_pinned_memory,gpugraph_enable_print_op_debug,enable_dump_main_program,auto_growth_chunk_size_in_mb,eager_delete_tensor_gb,dynamic_static_unified_comm,gemm_use_half_precision_compute_type,einsum_opt,gpugraph_debug_gpu_memory,fuse_parameter_groups_size,new_executor_sequential_run,paddle_num_threads,gpugraph_offload_gather_copy_maxsize,gpugraph_dedup_pull_push_mode,free_when_no_cache_hit,convert_all_blocks,cudnn_batchnorm_spatial_persistent,new_executor_static_build,gpugraph_offload_param_extends,use_autotune,jit_engine_type,query_dest_rank_by_multi_node,pir_subgraph_saving_dir,graph_metapath_split_opt,enable_adjust_op_order,tracer_mkldnn_ops_off,set_to_1d,enable_gpu_memory_usage_log_mb,enable_sparse_inner_gather,dist_threadpool_size,sync_nccl_allreduce,gpugraph_enable_hbm_table_collision_stat,cpu_deterministic,allocator_strategy,gpugraph_merge_grads_segment_size,fuse_parameter_memory_size,cudnn_exhaustive_search,enable_pir_in_executor,enable_neighbor_list_use_uva,reader_queue_speed_test_mode,enable_all2all_use_fp16,conv2d_disable_cudnn,nccl_blocking_wait,use_mkldnn,use_stride_kernel,pe_profile_fname,enable_pir_with_pt_in_dy2st,local_exe_sub_scope_limit,log_memory_stats,prim_enabled,initial_cpu_memory_in_mb,fast_eager_deletion_mode,run_kp_kernel,conv_workspace_size_limit,benchmark_nccl,check_nan_inf_level,inner_op_parallelism,use_auto_growth_pinned_allocator,initial_gpu_memory_in_mb,check_nan_inf,enable_auto_detect_gpu_topo,print_sub_graph_dir,enable_async_trace,fleet_executor_with_standalone,cudnn_exhaustive_search_times,npu_storage_format,static_executor_perfstat_filepath,enable_record_memory,embedding_deterministic,use_cuda_managed_memory,init_allocated_mem,trt_ibuilder_cache,free_idle_chunk,enable_pir_in_executor_trace_run,graph_get_neighbor_id,fraction_of_gpu_memory_to_use,new_executor_use_inplace,cudnn_deterministic,get_host_by_name_time 
+I0406 02:05:14.546232 428484 init.cc:105] After Parse: argc is 2
+I0406 02:05:15.699024 428484 pybind.cc:1791] Cannot use get_all_custom_device_type because you have installedCPU/GPU version PaddlePaddle.
+If you want to use get_all_custom_device_type, please try to install CustomDevice version PaddlePaddle by: pip install paddlepaddle
+[2024/04/06 02:05:15] ppocr INFO: Architecture : 
+[2024/04/06 02:05:15] ppocr INFO:     Backbone : 
+[2024/04/06 02:05:15] ppocr INFO:         last_conv_stride : [1, 2]
+[2024/04/06 02:05:15] ppocr INFO:         last_pool_kernel_size : [2, 2]
+[2024/04/06 02:05:15] ppocr INFO:         last_pool_type : avg
+[2024/04/06 02:05:15] ppocr INFO:         name : MobileNetV1Enhance
+[2024/04/06 02:05:15] ppocr INFO:         scale : 0.5
+[2024/04/06 02:05:15] ppocr INFO:     Head : 
+[2024/04/06 02:05:15] ppocr INFO:         head_list : 
+[2024/04/06 02:05:15] ppocr INFO:             CTCHead : 
+[2024/04/06 02:05:15] ppocr INFO:                 Head : 
+[2024/04/06 02:05:15] ppocr INFO:                     fc_decay : 1e-05
+[2024/04/06 02:05:15] ppocr INFO:                 Neck : 
+[2024/04/06 02:05:15] ppocr INFO:                     depth : 2
+[2024/04/06 02:05:15] ppocr INFO:                     dims : 64
+[2024/04/06 02:05:15] ppocr INFO:                     hidden_dims : 120
+[2024/04/06 02:05:15] ppocr INFO:                     name : svtr
+[2024/04/06 02:05:15] ppocr INFO:                     use_guide : True
+[2024/04/06 02:05:15] ppocr INFO:             SARHead : 
+[2024/04/06 02:05:15] ppocr INFO:                 enc_dim : 512
+[2024/04/06 02:05:15] ppocr INFO:                 max_text_length : 25
+[2024/04/06 02:05:15] ppocr INFO:         name : MultiHead
+[2024/04/06 02:05:15] ppocr INFO:     Transform : None
+[2024/04/06 02:05:15] ppocr INFO:     algorithm : SVTR_LCNet
+[2024/04/06 02:05:15] ppocr INFO:     model_type : rec
+[2024/04/06 02:05:15] ppocr INFO: Eval : 
+[2024/04/06 02:05:15] ppocr INFO:     dataset : 
+[2024/04/06 02:05:15] ppocr INFO:         data_dir : ./train_data
+[2024/04/06 02:05:15] ppocr INFO:         label_file_list : ['./train_data/ic15_data/rec_gt_test.txt']
+[2024/04/06 02:05:15] ppocr INFO:         name : SimpleDataSet
+[2024/04/06 02:05:15] ppocr INFO:         transforms : 
+[2024/04/06 02:05:15] ppocr INFO:             DecodeImage : 
+[2024/04/06 02:05:15] ppocr INFO:                 channel_first : False
+[2024/04/06 02:05:15] ppocr INFO:                 img_mode : BGR
+[2024/04/06 02:05:15] ppocr INFO:             MultiLabelEncode : None
+[2024/04/06 02:05:15] ppocr INFO:             RecResizeImg : 
+[2024/04/06 02:05:15] ppocr INFO:                 image_shape : [3, 48, 320]
+[2024/04/06 02:05:15] ppocr INFO:             KeepKeys : 
+[2024/04/06 02:05:15] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_sar', 'length', 'valid_ratio']
+[2024/04/06 02:05:15] ppocr INFO:     loader : 
+[2024/04/06 02:05:15] ppocr INFO:         batch_size_per_card : 128
+[2024/04/06 02:05:15] ppocr INFO:         drop_last : False
+[2024/04/06 02:05:15] ppocr INFO:         num_workers : 10
+[2024/04/06 02:05:15] ppocr INFO:         shuffle : False
+[2024/04/06 02:05:15] ppocr INFO: Global : 
+[2024/04/06 02:05:15] ppocr INFO:     cal_metric_during_train : True
+[2024/04/06 02:05:15] ppocr INFO:     character_dict_path : ppocr/utils/en_dict.txt
+[2024/04/06 02:05:15] ppocr INFO:     checkpoints : None
+[2024/04/06 02:05:15] ppocr INFO:     debug : False
+[2024/04/06 02:05:15] ppocr INFO:     distributed : False
+[2024/04/06 02:05:15] ppocr INFO:     epoch_num : 500
+[2024/04/06 02:05:15] ppocr INFO:     eval_batch_step : [0, 10]
+[2024/04/06 02:05:15] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2024/04/06 02:05:15] ppocr INFO:     infer_mode : False
+[2024/04/06 02:05:15] ppocr INFO:     log_smooth_window : 20
+[2024/04/06 02:05:15] ppocr INFO:     max_text_length : 25
+[2024/04/06 02:05:15] ppocr INFO:     pretrained_model : ./pretrain_models/en_PP-OCRv3_rec_train/best_accuracy
+[2024/04/06 02:05:15] ppocr INFO:     print_batch_step : 10
+[2024/04/06 02:05:15] ppocr INFO:     save_epoch_step : 3
+[2024/04/06 02:05:15] ppocr INFO:     save_inference_dir : None
+[2024/04/06 02:05:15] ppocr INFO:     save_model_dir : ./output/v3_en_mobile
+[2024/04/06 02:05:15] ppocr INFO:     save_res_path : ./output/rec/predicts_ppocrv3_en.txt
+[2024/04/06 02:05:15] ppocr INFO:     use_gpu : True
+[2024/04/06 02:05:15] ppocr INFO:     use_space_char : True
+[2024/04/06 02:05:15] ppocr INFO:     use_visualdl : False
+[2024/04/06 02:05:15] ppocr INFO: Loss : 
+[2024/04/06 02:05:15] ppocr INFO:     loss_config_list : 
+[2024/04/06 02:05:15] ppocr INFO:         CTCLoss : None
+[2024/04/06 02:05:15] ppocr INFO:         SARLoss : None
+[2024/04/06 02:05:15] ppocr INFO:     name : MultiLoss
+[2024/04/06 02:05:15] ppocr INFO: Metric : 
+[2024/04/06 02:05:15] ppocr INFO:     ignore_space : False
+[2024/04/06 02:05:15] ppocr INFO:     main_indicator : acc
+[2024/04/06 02:05:15] ppocr INFO:     name : RecMetric
+[2024/04/06 02:05:15] ppocr INFO: Optimizer : 
+[2024/04/06 02:05:15] ppocr INFO:     beta1 : 0.9
+[2024/04/06 02:05:15] ppocr INFO:     beta2 : 0.999
+[2024/04/06 02:05:15] ppocr INFO:     lr : 
+[2024/04/06 02:05:15] ppocr INFO:         learning_rate : 0.001
+[2024/04/06 02:05:15] ppocr INFO:         name : Cosine
+[2024/04/06 02:05:15] ppocr INFO:         warmup_epoch : 5
+[2024/04/06 02:05:15] ppocr INFO:     name : Adam
+[2024/04/06 02:05:15] ppocr INFO:     regularizer : 
+[2024/04/06 02:05:15] ppocr INFO:         factor : 3e-05
+[2024/04/06 02:05:15] ppocr INFO:         name : L2
+[2024/04/06 02:05:15] ppocr INFO: PostProcess : 
+[2024/04/06 02:05:15] ppocr INFO:     name : CTCLabelDecode
+[2024/04/06 02:05:15] ppocr INFO: Train : 
+[2024/04/06 02:05:15] ppocr INFO:     dataset : 
+[2024/04/06 02:05:15] ppocr INFO:         data_dir : ./train_data
+[2024/04/06 02:05:15] ppocr INFO:         ext_op_transform_idx : 1
+[2024/04/06 02:05:15] ppocr INFO:         label_file_list : ['./train_data/ic15_data/rec_gt_train.txt']
+[2024/04/06 02:05:15] ppocr INFO:         name : SimpleDataSet
+[2024/04/06 02:05:15] ppocr INFO:         transforms : 
+[2024/04/06 02:05:15] ppocr INFO:             DecodeImage : 
+[2024/04/06 02:05:15] ppocr INFO:                 channel_first : False
+[2024/04/06 02:05:15] ppocr INFO:                 img_mode : BGR
+[2024/04/06 02:05:15] ppocr INFO:             RecConAug : 
+[2024/04/06 02:05:15] ppocr INFO:                 ext_data_num : 2
+[2024/04/06 02:05:15] ppocr INFO:                 image_shape : [48, 320, 3]
+[2024/04/06 02:05:15] ppocr INFO:                 max_text_length : 25
+[2024/04/06 02:05:15] ppocr INFO:                 prob : 0.5
+[2024/04/06 02:05:15] ppocr INFO:             RecAug : None
+[2024/04/06 02:05:15] ppocr INFO:             MultiLabelEncode : None
+[2024/04/06 02:05:15] ppocr INFO:             RecResizeImg : 
+[2024/04/06 02:05:15] ppocr INFO:                 image_shape : [3, 48, 320]
+[2024/04/06 02:05:15] ppocr INFO:             KeepKeys : 
+[2024/04/06 02:05:15] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_sar', 'length', 'valid_ratio']
+[2024/04/06 02:05:15] ppocr INFO:     loader : 
+[2024/04/06 02:05:15] ppocr INFO:         batch_size_per_card : 128
+[2024/04/06 02:05:15] ppocr INFO:         drop_last : True
+[2024/04/06 02:05:15] ppocr INFO:         num_workers : 10
+[2024/04/06 02:05:15] ppocr INFO:         shuffle : True
+[2024/04/06 02:05:15] ppocr INFO: profiler_options : None
+[2024/04/06 02:05:15] ppocr INFO: train with paddle 2.6.1 and device Place(gpu:0)
+[2024/04/06 02:05:15] ppocr INFO: Initialize indexs of datasets:['./train_data/ic15_data/rec_gt_train.txt']
+'MakeBorderMap'
+[2024/04/06 02:05:15] ppocr INFO: Initialize indexs of datasets:['./train_data/ic15_data/rec_gt_test.txt']
+W0406 02:05:15.721904 428484 gpu_resources.cc:119] Please NOTE: device: 0, GPU Compute Capability: 8.7, Driver API Version: 11.4, Runtime API Version: 11.4
+W0406 02:05:15.727778 428484 gpu_resources.cc:164] device: 0, cuDNN Version: 8.4.
+I0406 02:05:17.117939 428484 op_function_common.cc:898] Start Process 3
+I0406 02:05:17.117995 428484 op_function_common.cc:914] Start Process copy_data
+I0406 02:05:17.118013 428484 op_function_common.cc:898] Start Process 5
+I0406 02:05:17.118023 428484 op_function_common.cc:914] Start Process use_align
+I0406 02:05:17.118031 428484 op_function_common.cc:898] Start Process 7
+I0406 02:05:17.118037 428484 op_function_common.cc:914] Start Process dtype
+I0406 02:05:17.124307 428484 op_function_common.cc:898] Start Process 3
+I0406 02:05:17.124362 428484 op_function_common.cc:914] Start Process copy_data
+I0406 02:05:17.124375 428484 op_function_common.cc:898] Start Process 5
+I0406 02:05:17.124382 428484 op_function_common.cc:914] Start Process use_align
+I0406 02:05:17.124388 428484 op_function_common.cc:898] Start Process 7
+I0406 02:05:17.124394 428484 op_function_common.cc:914] Start Process dtype
+[2024/04/06 02:05:17] ppocr INFO: train dataloader has 34 iters
+[2024/04/06 02:05:17] ppocr INFO: valid dataloader has 17 iters
+[2024/04/06 02:05:17] ppocr INFO: load pretrain successful from ./pretrain_models/en_PP-OCRv3_rec_train/best_accuracy
+[2024/04/06 02:05:17] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 10 iterations
+I0406 02:05:17.541226 428484 reader_py.cc:429] init_lod_tensor_blocking_queue
+I0406 02:05:17.541539 428484 buffered_reader.cc:50] BufferedReader
+I0406 02:05:18.656193 428576 buddy_allocator.cc:63] min_chunk_size_: 65536, max_chunk_size_:128615216
+Traceback (most recent call last):
+  File "tools/train.py", line 228, in <module>
+    main(config, device, logger, vdl_writer)
+  File "tools/train.py", line 199, in main
+    program.train(config, train_dataloader, valid_dataloader, device, model,
+  File "/paddle/PaddleOCR/tools/program.py", line 304, in train
+    preds = model(images, data=batch[1:])
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/layers.py", line 1429, in __call__
+    return self.forward(*inputs, **kwargs)
+  File "/paddle/PaddleOCR/ppocr/modeling/architectures/base_model.py", line 86, in forward
+    x = self.backbone(x)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/layers.py", line 1429, in __call__
+    return self.forward(*inputs, **kwargs)
+  File "/paddle/PaddleOCR/ppocr/modeling/backbones/rec_mv1_enhance.py", line 228, in forward
+    y = self.block_list(y)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/layers.py", line 1429, in __call__
+    return self.forward(*inputs, **kwargs)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/container.py", line 614, in forward
+    input = layer(input)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/layers.py", line 1429, in __call__
+    return self.forward(*inputs, **kwargs)
+  File "/paddle/PaddleOCR/ppocr/modeling/backbones/rec_mv1_enhance.py", line 101, in forward
+    y = self._pointwise_conv(y)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/layers.py", line 1429, in __call__
+    return self.forward(*inputs, **kwargs)
+  File "/paddle/PaddleOCR/ppocr/modeling/backbones/rec_mv1_enhance.py", line 63, in forward
+    y = self._conv(inputs)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/layers.py", line 1429, in __call__
+    return self.forward(*inputs, **kwargs)
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/layer/conv.py", line 715, in forward
+    out = F.conv._conv_nd(
+  File "/home/paddle/.local/lib/python3.8/site-packages/paddle/nn/functional/conv.py", line 128, in _conv_nd
+    pre_bias = _C_ops.conv2d(
+OSError: (External) CUDNN error(4), CUDNN_STATUS_INTERNAL_ERROR. 
+  [Hint: 'CUDNN_STATUS_INTERNAL_ERROR'.  An internal cuDNN operation failed.  ] (at /paddle/build/Paddle/paddle/phi/kernels/gpudnn/conv_cudnn_v7.h:791)
+

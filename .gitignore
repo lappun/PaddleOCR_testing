@@ -1,0 +1,4 @@
+build
+PaddleOCR
+files/*.deb
+files/*.whl

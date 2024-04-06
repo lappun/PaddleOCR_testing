@@ -1,0 +1,972 @@
+[  0%] Built target extern_warpctc
+[  0%] Built target extern_eigen3
+[  0%] Built target extern_pocketfft
+[  1%] Built target extern_pybind
+[  1%] Built target extern_gflags
+[  1%] Built target extern_openblas
+[  1%] copy_if_different /paddle/build/Paddle/build/paddle/phi/kernels/declarations.h
+[  1%] copy_if_different /paddle/build/Paddle/build/paddle/phi/kernels/funcs/jit/kernels.h
+[  1%] Built target extern_threadpool
+[  1%] Built target extern_zlib
+[  1%] copy_if_different /paddle/build/Paddle/build/paddle/fluid/inference/api/paddle_inference_pass.h
+[  1%] copy_if_different /paddle/build/Paddle/build/paddle/fluid/operators/ops_signature/signatures.h
+[  1%] copy_if_different /paddle/build/Paddle/build/paddle/fluid/pybind/pybind.h
+[  1%] Built target copy_paddle_inference_pass_command
+[  1%] Built target download_externalError
+[  1%] Built target copy_declarations_command
+[  1%] Built target copy_kernels_command
+[  1%] Built target copy_signatures_command
+[  2%] Built target extern_gloo
+[  4%] Built target extern_dlpack
+[  4%] Built target extern_warprnnt
+[  4%] Built target extern_utf8proc
+[  4%] Built target extern_cryptopp
+[  4%] Built target extern_lapack
+[  4%] Built target copy_pybind_command
+[  4%] Built target ops_api_gen
+[  4%] Built target extern_protobuf
+[  4%] Built target ps_py_proto_init
+[  4%] Built target extern_glog
+[  4%] Built target fleet_proto_init
+Replace /paddle/build/Paddle/build/paddle/phi/api/profiler/profiler_pb2.py
+[  4%] Running Python protocol buffer compiler on ps.proto
+Replace /paddle/build/Paddle/build/paddle/fluid/framework/distributed_strategy_pb2.py
+Replace /paddle/build/Paddle/build/paddle/fluid/distributed/fleet_executor/fleet_executor_desc_pb2.py
+Replace /paddle/build/Paddle/build/paddle/fluid/framework/trainer_desc_pb2.py
+[  4%] Running Python protocol buffer compiler on the_one_ps.proto
+Replace /paddle/build/Paddle/build/paddle/fluid/framework/pass_desc_pb2.py
+Replace /paddle/build/Paddle/build/paddle/fluid/framework/framework_pb2.py
+[  4%] Built target shape_range_info_proto
+Replace /paddle/build/Paddle/build/paddle/fluid/distributed/ps_pb2.py
+Replace /paddle/build/Paddle/build/paddle/fluid/distributed/the_one_ps_pb2.py
+[  4%] Built target fleet_executor_desc_py_proto_replace
+[  4%] Built target distributed_strategy_py_proto_replace
+[  5%] Built target profiler_py_proto_replace
+Replace /paddle/build/Paddle/build/paddle/fluid/framework/data_feed_pb2.py
+[  5%] Built target pass_desc_py_proto_replace
+[  5%] Built target data_feed_proto
+Replace /paddle/build/Paddle/build/paddle/fluid/framework/data_feed_pb2.py
+[  5%] Built target pslib_py_proto_replace
+[  6%] Built target nodetreeproto
+[  6%] Built target framework_proto
+[  6%] Built target ps_py_proto_replace
+[  6%] Built target phi_profiler_proto
+[  6%] Built target heter_service_proto
+[  6%] Built target interceptor_message_proto
+[  6%] Built target trainer_py_proto_replace
+[  6%] Built target framework_py_proto_replace
+[  6%] Built target auto_parallel_proto
+[  7%] Built target paddle_jit_property_proto
+[  7%] Built target op_def_proto
+[  7%] Built target external_error_proto
+[  7%] Built target fleet_executor_desc_proto
+[  7%] Built target common
+[  8%] Built target cblas
+[  8%] Built target monitor
+[  8%] Built target version
+[  8%] Built target data_type
+[  8%] Built target op_version_proto
+[  8%] Built target timer
+[  8%] Built target denormal
+[  8%] Built target mask_util
+[  8%] Built target tensorrt_dynamic_shape_infermeta_factory
+[  8%] Built target paddle_pass_builder
+[  8%] Built target tensorrt_plugin_arg_mapping_context
+[  8%] Built target common_static
+[  8%] Built target table_printer
+Copy generated python proto into directory paddle/fluid/proto/profiler.
+[  8%] Built target fleet_executor_desc_py_proto
+[  8%] Built target distributed_strategy_py_proto
+[  8%] Built target pslib_py_proto
+[  8%] Built target ps_py_proto
+[  8%] Built target trainer_py_proto
+[  8%] Built target pass_desc_py_proto
+[  8%] Built target pass_desc_proto
+[  8%] Built target trainer_desc_proto
+[  8%] Built target profiler_py_proto
+[  8%] Built target op_version_registry
+[  8%] Copy generated python proto into directory paddle/distributed/fleet/proto.
+[  8%] Built target op_def_api
+Copy generated python proto into directory paddle/fluid/proto.
+[  8%] Built target extern_xxhash
+[ 10%] Built target pir
+[ 10%] Built target fleet_executor_proto_init
+[ 10%] Built target third_party
+[ 10%] Built target framework_py_proto
+[ 10%] Built target eager_python_c_codegen
+[ 10%] Built target op_map_codegen
+[ 10%] Built target eager_codegen
+[ 46%] Built target phi
+[ 46%] Built target enforce
+[ 46%] Built target string_helper
+[ 46%] Built target imperative_profiler
+[ 47%] Built target pretty_log
+[ 47%] Built target imperative_flag
+[ 47%] Built target string_array
+[ 47%] Built target dist_tensor_spec
+[ 47%] Built target process_group
+[ 47%] Built target autograd_meta
+[ 47%] Built target grad_node_info
+[ 48%] Built target framework_io
+[ 49%] Built target zero_copy_tensor_dummy
+[ 49%] Built target dynamic_loader
+[ 49%] Built target pybind_util
+[ 49%] Built target jit_kernel_benchmark
+[ 49%] Built target cpu_helper
+[ 49%] Built target print_phi_kernels
+[ 49%] Built target attribute
+[ 49%] Built target stream_callback_manager
+[ 49%] Built target place
+[ 49%] Built target profiler_utils
+[ 49%] Built target custom_tracer
+[ 49%] Built target cpu_utilization
+[ 49%] Built target task_loop_thread_pool
+[ 49%] Built target xpu_tracer
+[ 51%] Built target op_compat_infos
+[ 51%] Built target data_loader
+[ 51%] Built target eager_nan_inf_utils
+[ 51%] Built target cuda_profiler
+[ 51%] Built target ops_extra_info
+[ 51%] Built target py_layer_node
+[ 51%] Built target dynload_cuda
+[ 51%] Built target dynload_warpctc
+[ 51%] Built target event_node
+[ 51%] Built target op_proto_maker
+[ 51%] Built target gpu_info
+[ 51%] Built target scope
+[ 51%] Built target profiler_logger
+[ 51%] Built target op_call_stack
+[ 51%] Built target gpu_resource_pool
+[ 51%] Built target cuda_device_guard
+[ 53%] Built target op_dialect
+[ 53%] Built target var_type_traits
+[ 53%] Built target event_bind
+[ 53%] Built target selected_rows_utils
+[ 53%] Built target type_info
+[ 53%] Built target scope_pool
+[ 53%] Built target host_tracer
+[ 53%] Built target shape_inference
+[ 53%] Built target primitive_backend_static_experimental
+[ 54%] Built target device_context
+[ 54%] Built target profiler
+[ 55%] Built target allocator
+[ 55%] Built target garbage_collector
+[ 55%] Built target fluid_memory
+[ 55%] Built target op_kernel_type
+[ 55%] Built target collective_helper
+[ 55%] Built target transfer_scope_cache
+[ 55%] Built target no_need_buffer_vars_inference
+[ 55%] Built target heter_wrapper
+[ 56%] Built target concat_and_split
+[ 56%] Built target beam_search
+[ 56%] Built target cos_sim_functor
+[ 56%] Built target unpooling
+[ 56%] Built target context_project
+[ 56%] Built target depthwise_conv
+[ 56%] Built target sampler
+[ 56%] Built target prelu
+[ 57%] Built target unused_var_check
+[ 57%] Built target tensorrt_op_teller
+[ 57%] Built target op_info
+[ 57%] Built target reference_count_pass_helper
+[ 58%] Built target tensor
+[ 58%] Built target tree2col
+[ 58%] Built target sample_prob
+[ 58%] Built target init
+[ 58%] Built target bert_encoder_functor
+[ 58%] Built target dlpack_tensor
+[ 58%] Built target data_device_transform
+[ 58%] Built target var_helper
+[ 58%] Built target layout_autotune
+[ 58%] Built target imperative_all_reduce
+[ 58%] Built target proto_desc_base
+[ 58%] Built target data_layout_transform
+[ 58%] Built target lod_tensor
+[ 58%] Built target data_type_transform
+[ 58%] Built target init_phi
+[ 58%] Built target heter_ccl_context
+[ 58%] Built target static_global_utils
+[ 58%] Built target phi_utils
+[ 58%] Built target reader
+[ 58%] Built target nccl_context
+[ 59%] Built target feed_fetch_method
+[ 59%] Built target lod_rank_table
+[ 59%] Built target box_wrapper
+[ 59%] Built target variable_helper
+[ 59%] Built target device_worker
+[ 59%] Built target reset_tensor_array
+[ 59%] Built target zero_copy_tensor
+[ 59%] Built target data_transform
+[ 59%] Built target prim_utils
+[ 60%] Built target infershape_utils
+[ 60%] Built target py_reader
+[ 61%] Built target buffered_reader
+[ 61%] Built target lodtensor_printer
+[ 61%] Built target gloo_wrapper
+[ 61%] Built target nccl_wrapper
+[ 61%] Built target fleet_wrapper
+[ 61%] Built target paddle_infer_contrib
+[ 61%] Built target metrics
+[ 61%] Built target operator
+[ 61%] Built target ps_gpu_wrapper
+[ 61%] Built target op_registry
+[ 61%] Built target pass
+[ 61%] Built target node
+[ 61%] Built target detail_op_handle
+[ 61%] Built target graph
+[ 61%] Built target graph_helper
+[ 61%] Built target program_utils
+[ 61%] Built target proto_desc
+[ 61%] Built target op_dist_attr
+[ 61%] Built target quantize_helper
+[ 61%] Built target graph_traits
+[ 61%] Built target common_infer_shape_functions
+[ 61%] Built target coalesce_grad_tensor_pass
+[ 61%] Built target pass_builder
+[ 61%] Built target device_event_base
+[ 61%] Built target op_graph_view
+[ 61%] Built target op_variant
+[ 62%] Built target fuse_optimizer_op_pass
+[ 62%] Built target get_expected_kernel_func
+[ 62%] Built target prepared_operator
+[ 62%] Built target static_utils
+[ 62%] Built target add_reader_dependency_pass
+[ 62%] Built target multi_devices_graph_print_pass
+[ 62%] Built target backward_optimizer_op_deps_pass
+[ 62%] Built target fuse_all_reduce_op_pass
+[ 62%] Built target memory_reuse_pass
+[ 62%] Built target multi_devices_graph_check_pass
+[ 62%] Built target multi_devices_graph_pass
+[ 62%] Built target sequential_execution_pass
+[ 62%] Built target fix_op_run_order_pass
+[ 62%] Built target all_reduce_deps_pass
+[ 62%] Built target modify_op_lock_and_record_event_pass
+[ 62%] Built target op_compatible_info
+[ 62%] Built target reader_op_registry
+[ 62%] Built target analysis_pass
+[ 62%] Built target nccl_common
+[ 62%] Built target argument
+[ 62%] Built target auto_parallel
+[ 62%] Built target placement_pass_base
+[ 62%] Built target pass_test_util
+[ 62%] Built target prune
+[ 62%] Built target model_utils
+[ 62%] Built target primitive_eager_utils_experimental
+[ 62%] Built target py_func_op
+[ 62%] Built target graph_pattern_detector
+[ 62%] Built target primitive_static_utils_experimental
+[ 62%] Built target while_op_helper
+[ 62%] Built target device_event_gpu
+[ 62%] Built target buffer_shared_cross_op_memory_reuse_pass
+[ 62%] Built target fuse_momentum_op_pass
+[ 62%] Built target layer
+[ 62%] Built target fuse_sgd_op_pass
+[ 62%] Built target fuse_adam_op_pass
+[ 62%] Built target inplace_addto_op_pass
+[ 62%] Built target reference_count_pass
+[ 62%] Built target generated_static_prim_api
+[ 62%] Built target manual_static_prim_api
+[ 62%] Built target op_compat_sensible_pass
+[ 62%] Built target set_reader_device_info_utils
+[ 62%] Built target memory_optim_pass
+[ 62%] Built target amp
+[ 62%] Built target fuse_elewise_add_act_pass
+[ 62%] Built target fuse_bn_act_pass
+[ 62%] Built target fuse_bn_add_act_pass
+[ 62%] Built target primitive_vjp_experimental
+[ 62%] Built target fused_attention_pass
+[ 62%] Built target fuse_adamw_op_pass
+[ 62%] Built target fuse_relu_depthwise_conv_pass
+[ 62%] Built target gradient_accumulator
+[ 62%] Built target fuse_gemm_epilogue_pass
+[ 62%] Built target fused_feedforward_pass
+[ 62%] Built target while_op_eager_deletion_pass
+[ 62%] Built target custom_operator
+[ 62%] Built target cuda_graph_with_memory_pool
+[ 62%] Built target process_group_nccl
+[ 62%] Built target save_combine_op
+[ 62%] Built target load_combine_op
+[ 62%] Built target generate_mask_labels_op
+[ 62%] Built target class_center_sample_op
+[ 62%] Built target collect_fpn_proposals_op
+[ 62%] Built target box_decoder_and_assign_op
+[ 62%] Built target iou_similarity_op
+[ 62%] Built target mine_hard_examples_op
+[ 62%] Built target density_prior_box_op
+[ 62%] Built target quantize_linear_op
+[ 62%] Built target generate_proposals_op
+[ 62%] Built target box_clip_op
+[ 62%] Built target anchor_generator_op
+[ 62%] Built target rpn_target_assign_op
+[ 62%] Built target polygon_box_transform_op
+[ 62%] Built target generate_proposal_labels_op
+[ 62%] Built target multiclass_nms_op
+[ 62%] Built target locality_aware_nms_op
+[ 62%] Built target bipartite_match_op
+[ 62%] Built target distribute_fpn_proposals_op
+[ 62%] Built target retinanet_detection_output_op
+[ 62%] Built target fused_softplus_op
+[ 62%] Built target fusion_seqpool_cvm_concat_op
+[ 62%] Built target fusion_conv_inception_op
+[ 62%] Built target elementwise_mul_op
+[ 62%] Built target elementwise_sub_op
+[ 62%] Built target elementwise_add_op
+[ 62%] Built target fused_embedding_fc_lstm_op
+[ 62%] Built target elementwise_div_op
+[ 62%] Built target fused_transpose_op
+[ 62%] Built target fused_conv2d_op
+[ 62%] Built target fused_embedding_seq_pool_op
+[ 62%] Built target fused_elemwise_activation_op
+[ 62%] Built target fused_elementwise_op
+[ 62%] Built target fused_bn_activation_op
+[ 62%] Built target fusion_seqpool_concat_op
+[ 62%] Built target fused_adam_op
+[ 62%] Built target fused_matmul_op
+[ 62%] Built target multi_gru_op
+[ 62%] Built target yolo_box_head_op
+[ 62%] Built target yolo_box_post_op
+[ 62%] Built target fused_bn_add_activation_op
+[ 63%] Built target fusion_lstm_op
+[ 63%] Built target fused_attention_op
+[ 63%] Built target fused_multi_transformer_op
+[ 63%] Built target resnet_unit_op
+[ 63%] Built target fusion_group_op
+[ 64%] Built target fused_gate_attention_op
+[ 64%] Built target adadelta_op
+[ 64%] Built target precision_recall_op
+[ 64%] Built target fused_seqpool_cvm_op
+[ 64%] Built target decayed_adagrad_op
+[ 64%] Built target fused_multi_transformer_int8_op
+[ 64%] Built target sparse_momentum_op
+[ 64%] Built target dgc_momentum_op
+[ 64%] Built target fused_feedforward_op
+[ 64%] Built target distributed_fused_lamb_op
+[ 64%] Built target distributed_fused_lamb_init_op
+[ 64%] Built target dpsgd_op
+[ 64%] Built target pow2_decay_with_linear_warmup_op
+[ 64%] Built target lars_momentum_op
+[ 64%] Built target proximal_gd_op
+[ 64%] Built target reduce_mean_op
+[ 64%] Built target logsumexp_op
+[ 64%] Built target ftrl_op
+[ 65%] Built target sequence_unpad_op
+[ 66%] Built target sequence_concat_op
+[ 66%] Built target sequence_slice_op
+[ 66%] Built target sequence_pad_op
+[ 66%] Built target sequence_expand_as_op
+[ 66%] Built target sequence_pool_op
+[ 66%] Built target sequence_conv_op
+[ 66%] Built target sequence_erase_op
+[ 66%] Built target sequence_enumerate_op
+[ 66%] Built target sequence_reshape_op
+[ 66%] Built target sequence_mask_op
+[ 66%] Built target sequence_expand_op
+[ 66%] Built target sequence_reverse_op
+[ 66%] Built target sequence_softmax_op
+[ 66%] Built target faster_tokenizer_op
+[ 66%] Built target sequence_scatter_op
+[ 66%] Built target sqrt_p_op
+[ 66%] Built target transpose_p_op
+[ 66%] Built target exp_p_op
+[ 66%] Built target split_p_op
+[ 66%] Built target fill_constant_p_op
+[ 67%] Built target erf_p_op
+[ 67%] Built target tanh_p_op
+[ 67%] Built target add_p_op
+[ 67%] Built target broadcast_p_op
+[ 67%] Built target ge_p_op
+[ 67%] Built target log_p_op
+[ 67%] Built target reshape_p_op
+[ 67%] Built target gather_p_op
+[ 67%] Built target gt_p_op
+[ 67%] Built target ne_p_op
+[ 67%] Built target slice_assign_p_op
+[ 67%] Built target cast_p_op
+[ 67%] Built target sub_p_op
+[ 68%] Built target max_p_op
+[ 68%] Built target matmul_p_op
+[ 68%] Built target div_p_op
+[ 68%] Built target uniform_random_p_op
+[ 68%] Built target concat_p_op
+[ 68%] Built target scatter_add_p_op
+[ 68%] Built target pow_p_op
+[ 68%] Built target mul_p_op
+[ 68%] Built target bernoulli_p_op
+[ 68%] Built target reduce_sum_p_op
+[ 68%] Built target rsqrt_p_op
+[ 68%] Built target select_p_op
+[ 68%] Built target cos_p_op
+[ 68%] Built target abs_p_op
+[ 68%] Built target eq_p_op
+[ 68%] Built target sin_p_op
+[ 68%] Built target slice_select_p_op
+[ 68%] Built target read_op
+[ 68%] Built target create_py_reader_op
+[ 68%] Built target create_double_buffer_reader_op
+[ 68%] Built target basic_engine
+[ 68%] Built target static_prim_api
+[ 68%] Built target nccl_op
+[ 68%] Built target grad_tensor_holder
+[ 68%] Built target fuse_pass_base
+[ 68%] Built target reducer
+[ 68%] Built target engine
+[ 68%] Built target processgroup_comm_utils
+[ 68%] Built target static_tensor_operants
+[ 68%] Built target op_dialect_vjp
+[ 68%] Built target reverse_roll_fuse_pass
+[ 68%] Built target trt_map_ops_to_matrix_multiply_pass
+[ 68%] Built target delete_remove_padding_recover_padding_pass
+[ 68%] Built target map_op_to_another_pass
+[ 68%] Built target yolo_box_fuse_pass
+[ 68%] Built target fc_lstm_fuse_pass
+[ 68%] Built target fused_multi_transformer_encoder_pass
+[ 68%] Built target elementwise_groupnorm_act_pass
+[ 68%] Built target fuse_multi_transformer_layer_pass
+[ 68%] Built target layernorm_shift_partition_fuse_pass
+[ 68%] Built target graph_to_program_pass
+[ 68%] Built target tracer
+[ 69%] Built target multi_batch_merge_pass
+[ 69%] Built target runtime_context_cache_pass
+[ 69%] Built target delete_dropout_op_pass
+[ 69%] Built target sync_batch_norm_pass
+[ 69%] Built target lock_free_optimize_pass
+[ 69%] Built target graph_viz_pass
+[ 69%] Built target pir_general_functions
+[ 69%] Built target conv_elementwise_add_fuse_pass
+[ 69%] Built target program_translator
+[ 69%] Built target fc_gru_fuse_pass
+[ 69%] Built target groupnorm_act_pass
+[ 69%] Built target preln_skip_layernorm_fuse_pass
+[ 69%] Built target trt_flash_multihead_matmul_fuse_pass
+[ 69%] Built target trt_multihead_matmul_fuse_pass
+[ 69%] Built target set_transformer_input_convert_pass
+[ 69%] Built target gpu_cpu_map_matmul_to_mul_pass
+[ 69%] Built target trt_support_nhwc_pass
+[ 69%] Built target sparse_attention_op
+[ 69%] Built target matmul_scale_fuse_pass
+[ 69%] Built target sigmoid_elementmul_fuse_pass
+[ 69%] Built target delete_repeated_ops_pass
+[ 69%] Built target sync_batch_norm_op
+[ 69%] Built target embedding_eltwise_layernorm_fuse_pass
+[ 69%] Built target elementwiseadd_transpose_pass
+[ 69%] Built target multihead_matmul_roformer_fuse_pass
+[ 69%] Built target delete_assign_op_pass
+[ 69%] Built target cudnn_placement_pass
+[ 69%] Built target add_support_int8_pass
+[ 70%] Built target simplify_with_basic_ops_pass
+[ 70%] Built target trt_embedding_eltwise_layernorm_fuse_pass
+[ 70%] Built target trt_prompt_tuning_embedding_eltwise_layernorm_fuse_pass
+[ 70%] Built target adaptive_pool2d_convert_global_pass
+[ 70%] Built target set_subgraph_edge_pass
+[ 70%] Built target seqconv_eltadd_relu_fuse_pass
+[ 70%] Built target fused_continuous_same_ops_pass
+[ 70%] Built target split_layernorm_to_math_ops_pass
+[ 70%] Built target multihead_matmul_fuse_pass
+[ 70%] Built target remove_padding_recover_padding_pass
+[ 70%] Built target seqpool_concat_fuse_pass
+[ 70%] Built target fc_elementwise_layernorm_fuse_pass
+[ 70%] Built target delete_elementwise_mul_op_pass
+[ 70%] Built target dense_fc_to_sparse_pass
+[ 70%] Built target trt_cross_multihead_matmul_fuse_pass
+[ 70%] Built target trans_layernorm_fuse_pass
+[ 70%] Built target preln_embedding_eltwise_layernorm_fuse_pass
+[ 70%] Built target attention_lstm_fuse_pass
+[ 70%] Built target merge_layernorm_fuse_pass
+[ 70%] Built target fc_fuse_pass
+[ 70%] Built target conv_elementwise_add2_act_fuse_pass
+[ 70%] Built target seq_concat_fc_fuse_pass
+[ 70%] Built target delete_cast_op_pass
+[ 70%] Built target shuffle_channel_detect_pass
+[ 70%] Built target skip_layernorm_fuse_pass
+[ 70%] Built target dense_multihead_matmul_to_sparse_pass
+[ 70%] Built target layer_norm_fuse_pass
+[ 70%] Built target preln_residual_bias_fuse_pass
+[ 70%] Built target quant_conv2d_dequant_fuse_pass
+[ 70%] Built target delete_concat_op_pass
+[ 70%] Built target transpose_flatten_concat_fuse_pass
+[ 70%] Built target delete_quant_dequant_op_pass
+[ 70%] Built target preln_layernorm_x_fuse_pass
+[ 70%] Built target transfer_layout_elim_pass
+[ 71%] Built target repeated_fc_relu_fuse_pass
+[ 71%] Built target conv_elementwise_add_act_fuse_pass
+[ 71%] Built target vit_attention_fuse_pass
+[ 71%] Built target is_test_pass
+[ 71%] Built target seqpool_cvm_concat_fuse_pass
+[ 71%] Built target silu_fuse_pass
+[ 71%] Built target squared_mat_sub_fuse_pass
+[ 71%] Built target inplace_op_var_pass
+[ 71%] Built target trt_qk_multihead_matmul_fuse_pass
+[ 71%] Built target delete_op_device_pass
+[ 71%] Built target delete_weight_dequant_linear_op_pass
+[ 71%] Built target fused_multi_transformer_decoder_pass
+[ 71%] Built target trt_delete_weight_dequant_linear_op_pass
+[ 71%] Built target delete_quant_dequant_filter_op_pass
+[ 71%] Built target preln_elementwise_groupnorm_act_pass
+[ 71%] Built target trt_skip_layernorm_fuse_pass
+[ 71%] Built target relu6_fuse_pass
+[ 71%] Built target identity_op_clean_pass
+[ 71%] Built target quant_linear_fuse_pass
+[ 71%] Built target embedding_fc_lstm_fuse_pass
+[ 71%] Built target trt_remove_amp_strategy_op_pass
+[ 71%] Built target delete_quant_dequant_linear_op_pass
+[ 71%] Built target conv2d_trans_filter_dilations_nxn_to_1x1_pass
+[ 71%] Built target transfer_layout_pass
+[ 71%] Built target generate_pass
+[ 71%] Built target constant_folding_pass
+[ 71%] Built target auto_mixed_precision_pass
+[ 71%] Built target ir_graph_to_program_pass
+[ 71%] Built target conv_bn_fuse_pass
+[ 71%] Built target adjust_cudnn_workspace_size_pass
+[ 71%] Built target inference_op_replace_pass
+[ 71%] Built target global_utils
+[ 72%] Built target drr
+[ 72%] Built target scale_node
+[ 72%] Built target pylayer_op
+[ 72%] Built target eager_scale
+[ 72%] Built target conditional_block_op_helper
+[ 72%] Built target pylayer_op_helper
+[ 72%] Built target conditional_block_op
+[ 72%] Built target recurrent_op_helper
+[ 73%] Built target executor
+[ 73%] Built target recurrent_op
+[ 74%] Built target standalone_executor
+[ 74%] Built target executor_gc_helper
+[ 74%] Built target paddle_framework
+[ 74%] Built target subgraph_detector
+[ 74%] Built target buffer_shared_inplace_op_pass
+[ 74%] Built target cuda_tracer
+[ 74%] Built target unique_with_counts_op
+[ 74%] Built target conditional_block_op_eager_deletion_pass
+[ 74%] Built target pylayer_op_eager_deletion_pass
+[ 74%] Built target recurrent_op_eager_deletion_pass
+[ 74%] Built target transpose_op
+[ 74%] Built target lstm_op
+[ 74%] Built target uniform_random_batch_size_like_op
+[ 74%] Built target tdm_sampler_op
+[ 74%] Built target transfer_layout_op
+[ 74%] Built target top_k_op
+[ 74%] Built target tensor_array_to_tensor_op
+[ 74%] Built target fused_softmax_mask_upper_triangle_op
+[ 74%] Built target sum_op
+[ 74%] Built target read_file_op
+[ 74%] Built target split_op
+[ 75%] Built target stft_op
+[ 75%] Built target pir_transforms
+[ 75%] Built target beam_search_op
+[ 75%] Built target fill_constant_op
+[ 75%] Built target fused_softmax_mask_op
+[ 75%] Built target generated_sparse_op
+[ 75%] Built target fill_zeros_like_op
+[ 75%] Built target fsp_op
+[ 75%] Built target enqueue_op
+[ 75%] Built target fill_constant_batch_size_like_op
+[ 75%] Built target cast_op
+[ 75%] Built target gru_op
+[ 75%] Built target lod_rank_table_op
+[ 75%] Built target pull_sparse_v2_op
+[ 75%] Built target expand_op
+[ 75%] Built target partial_sum_op
+[ 75%] Built target pull_sparse_op
+[ 75%] Built target lod_array_length_op
+[ 75%] Built target fake_quantize_op
+[ 75%] Built target detection_map_op
+[ 75%] Built target add_position_encoding_op
+[ 75%] Built target dropout_op
+[ 75%] Built target bpr_loss_op
+[ 75%] Built target attention_lstm_op
+[ 75%] Built target rank_loss_op
+[ 75%] Built target dequantize_log_op
+[ 75%] Built target im2sequence_op
+[ 75%] Built target tile_op
+[ 75%] Built target increment_op
+[ 75%] Built target chunk_eval_op
+[ 75%] Built target generated_op
+[ 75%] Built target dequantize_op
+[ 75%] Built target generated_fused_op
+[ 75%] Built target data_norm_op
+[ 75%] Built target limit_by_capacity_op
+[ 75%] Built target hinge_loss_op
+[ 75%] Built target hash_op
+[ 75%] Built target pull_box_sparse_op
+[ 75%] Built target assign_pos_op
+[ 75%] Built target bilateral_slice_op
+[ 75%] Built target flatten_op
+[ 75%] Built target batch_norm_op
+[ 75%] Built target pad_op
+[ 76%] Built target pull_gpups_sparse_op
+[ 76%] Built target number_count_op
+[ 76%] Built target crf_decoding_op
+[ 76%] Built target batch_fc_op
+[ 77%] Built target beam_search_decode_op
+[ 78%] Built target array_to_lod_tensor_op
+[ 78%] Built target shuffle_channel_op
+[ 78%] Built target deformable_conv_v1_op
+[ 78%] Built target assert_op
+[ 78%] Built target dgc_clip_by_norm_op
+[ 78%] Built target affine_channel_op
+[ 78%] Built target activation_op
+[ 78%] Built target pull_box_extended_sparse_op
+[ 78%] Built target partial_concat_op
+[ 78%] Built target channel_shuffle_op
+[ 78%] Built target share_data_op
+[ 78%] Built target check_memory_continue_op
+[ 79%] Built target deformable_psroi_pooling_op
+[ 79%] Built target copy_cross_scope_op
+[ 79%] Built target fake_dequantize_op
+[ 79%] Built target load_op
+[ 79%] Built target set_value_op
+[ 79%] Built target memcpy_op
+[ 79%] Built target cross_entropy_op
+[ 80%] Built target correlation_op
+[ 80%] Built target dequeue_op
+[ 80%] Built target slice_op
+[ 80%] Built target dequantize_abs_max_op
+[ 80%] Built target row_conv_op
+[ 80%] Built target ctc_align_op
+[ 81%] Built target sampling_id_op
+[ 82%] Built target cudnn_lstm_op
+[ 82%] Built target fill_op
+[ 82%] Built target delete_var_op
+[ 82%] Built target get_tensor_from_selected_rows_op
+[ 82%] Built target cvm_op
+[ 82%] Built target sparse_manual_op
+[ 83%] Built target gru_unit_op
+[ 83%] Built target push_dense_op
+[ 83%] Built target isfinite_op
+[ 84%] Built target l1_norm_op
+[ 84%] Built target print_op
+[ 84%] Built target lod_tensor_to_array_op
+[ 84%] Built target linear_chain_crf_op
+[ 84%] Built target logspace_op
+[ 84%] Built target reorder_lod_tensor_by_rank_op
+[ 84%] Built target merge_lod_tensor_op
+[ 84%] Built target spp_op
+[ 84%] Built target reshape_op
+[ 84%] Built target hierarchical_sigmoid_op
+[ 84%] Built target crop_op
+[ 84%] Built target lookup_table_dequant_op
+[ 84%] Built target lookup_table_op
+[ 84%] Built target fused_token_prune_op
+[ 84%] Built target seed_op
+[ 84%] Built target pad2d_op
+[ 84%] Built target max_sequence_len_op
+[ 84%] Built target nce_op
+[ 84%] Built target lrn_op
+[ 84%] Built target margin_cross_entropy_op
+[ 84%] Built target modified_huber_loss_op
+[ 84%] Built target memcpy_d2h_op
+[ 84%] Built target memcpy_h2d_op
+[ 84%] Built target minus_op
+[ 84%] Built target moe_op
+[ 84%] Built target p_send_op
+[ 84%] Built target nop_op
+[ 84%] Built target matmul_op
+[ 84%] Built target shrink_rnn_memory_op
+[ 84%] Built target unzip_op
+[ 84%] Built target positive_negative_pair_op
+[ 84%] Built target prune_gate_by_capacity_op
+[ 84%] Built target teacher_student_sigmoid_loss_op
+[ 84%] Built target lod_reset_op
+[ 84%] Built target queue_generator_op
+[ 84%] Built target quantize_op
+[ 84%] Built target random_routing_op
+[ 84%] Built target requantize_op
+[ 84%] Built target tdm_child_op
+[ 84%] Built target rrelu_op
+[ 84%] Built target save_op
+[ 84%] Built target interpolate_op
+[ 84%] Built target select_input_op
+[ 84%] Built target repeat_interleave_op
+[ 85%] Built target rank_attention_op
+[ 85%] Built target select_output_op
+[ 85%] Built target generated_static_op
+[ 85%] Built target mul_op
+[ 85%] Built target shuffle_batch_op
+[ 85%] Built target similarity_focus_op
+[ 85%] Built target split_lod_tensor_op
+[ 85%] Built target tensorrt_engine
+[ 85%] Built target generated_eager_prim_api
+[ 85%] Built target new_profiler
+[ 85%] Built target subgraph_util
+[ 85%] Built target cost_model
+[ 85%] Built target eager_deletion_pass
+[ 85%] Built target code_generator
+[ 86%] Built target eager_utils
+[ 86%] Built target fusion_group_pass
+[ 86%] Built target manual_eager_prim_api
+[ 86%] Built target build_strategy
+[ 87%] Built target ssa_graph_executor
+[ 87%] Built target eager_prim_api
+[ 87%] Built target parallel_executor
+[ 87%] Built target accumulation_node
+[ 87%] Built target executor_cache
+[ 87%] Built target custom_operator_node
+[ 87%] Built target fluid_jit
+[ 87%] Built target run_program_op
+[ 87%] Built target custom_operator_utils
+[ 89%] Built target tensorrt_plugin
+[ 89%] Built target final_dygraph_function
+[ 89%] Built target final_dygraph_node
+[ 89%] Built target hook_utils
+[ 89%] Built target backward
+[ 89%] Built target utils
+[ 89%] Built target eager_tensor_operants
+[ 89%] Built target eager_api
+[ 89%] Built target primitive_backend_eager_experimental
+[ 89%] Built target eager_reducer
+[ 89%] Built target prim_api
+[ 92%] Built target tensorrt_converter
+[ 92%] Built target paddle_inference_api
+[ 92%] Built target infer_io_utils
+[ 92%] Built target analysis_helper
+[ 92%] Built target paddle_inference_io
+[ 92%] Built target tensorrt_engine_op
+[ 92%] Built target naive_executor
+[ 92%] Built target feed_op
+[ 93%] Built target get_places_op
+[ 93%] Built target while_op
+[ 93%] Built target conditional_block_infer_op
+[ 93%] Built target tensor_array_read_write_op
+[ 93%] Built target fetch_v2_op
+[ 93%] Built target fetch_op
+[ 94%] Built target depend_op
+[ 94%] Built target analysis_config
+[ 94%] Built target convert_to_mixed_precision
+[ 94%] Built target eager_generator
+[ 94%] Built target kernel_signature_generator
+[ 94%] Built target ir_graph_build_pass
+[ 95%] Built target fleet_executor
+[ 95%] Built target tensorrt_subgraph_pass
+[ 95%] Built target ir_pass_manager
+[ 95%] Built target ir_params_sync_among_devices_pass
+[ 95%] Built target ir_analysis_pass
+[ 95%] Built target save_optimized_model_pass
+[ 95%] Built target legacy_eager_codegen
+[ 95%] Built target analysis_passes
+[ 95%] Built target analysis
+[ 95%] Built target analysis_predictor
+[ 95%] Built target copy_dygraph_node
+[ 95%] Built target eager_legacy_op_function_generator
+[ 95%] Built target eager_legacy_op_function_generator_cmd
+[ 95%] Built target copy_dygraph_forward_functions
+[ 96%] Built target dygraph_node
+[ 96%] Built target dygraph_function
+[ 96%] Built target paddle_inference
+[ 96%] Built target paddle_inference_c
+[ 96%] Built target paddle_inference_c_shared
+[ 96%] Built target paddle_inference_shared
+copying /paddle/build/Paddle/third_party/threadpool/ThreadPool.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/threadpool
+[ 96%] Generating .check_symbol
+copying /paddle/build/Paddle/build/third_party/externalError/data -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/externalError/data
+copying /paddle/build/Paddle/build/CMakeCache.txt -> /paddle/build/Paddle/build/paddle_inference_install_dir
+copying /paddle/build/Paddle/build/third_party/install/openblas/lib -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/openblas
+copying /paddle/build/Paddle/build/third_party/install/openblas/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/openblas
+copying /paddle/build/Paddle/build/third_party/install/gflags/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/gflags
+copying /paddle/build/Paddle/build/third_party/install/gflags/lib/libgflags.a -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/gflags/lib
+copying /paddle/build/Paddle/build/third_party/install/glog/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/glog
+copying /paddle/build/Paddle/build/third_party/install/glog/lib/libglog.a -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/glog/lib
+copying /paddle/build/Paddle/build/third_party/install/utf8proc/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/utf8proc
+copying /paddle/build/Paddle/build/third_party/install/utf8proc/lib/libutf8proc.a -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/utf8proc/lib
+copying /paddle/build/Paddle/build/third_party/install/cryptopp/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/cryptopp
+[ 99%] Built target paddle
+copying /paddle/build/Paddle/build/third_party/install/cryptopp/lib/libcryptopp.a -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/cryptopp/lib
+[ 99%] Built target copy_libpaddle
+copying /paddle/build/Paddle/build/third_party/install/xxhash/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/xxhash
+[ 99%] Generating build/.timestamp
+copying /paddle/build/Paddle/build/third_party/install/xxhash/lib/libxxhash.a -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/xxhash/lib
+copying /paddle/build/Paddle/build/third_party/install/protobuf/include -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/protobuf
+copying /paddle/build/Paddle/build/third_party/install/protobuf/lib/libprotobuf.a -> /paddle/build/Paddle/build/paddle_inference_install_dir/third_party/install/protobuf/lib
+copying /paddle/build/Paddle/build/paddle/common/libcommon.* -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/lib
+copying /paddle/build/Paddle/paddle/fluid/inference/api/paddle_*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include
+copying /paddle/build/Paddle/build/paddle/fluid/inference/libpaddle_inference.* -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/lib
+[ 99%] Built target paddle_python
+[ 99%] Generating build/.timestamp
+[ 99%] Packing whl packages------>>>
+fatal: no tag exactly matches '53cc086f7e7290082342eaec7109b8a7e957a7df'
+[ 99%] Built target check_symbol
+copying /paddle/build/Paddle/build/paddle/phi/libphi.* -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/lib
+Traceback (most recent call last):
+  File "setup.py", line 716, in <module>
+    shutil.copy('/paddle/build/Paddle/build/third_party/install/flashattn/lib/libflashattn.so', libs_path)
+  File "/usr/lib/python3.8/shutil.py", line 418, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.8/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/paddle/build/Paddle/build/third_party/install/flashattn/lib/libflashattn.so'
+make[2]: *** [python/CMakeFiles/paddle_copy.dir/build.make:81: python/build/.timestamp_wheel] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79029: python/CMakeFiles/paddle_copy.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+copying /paddle/build/Paddle/build/paddle/fluid/framework/framework.pb.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/internal
+copying /paddle/build/Paddle/paddle/fluid/framework/io/crypto/cipher.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/crypto/
+copying /paddle/build/Paddle/paddle/common/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/common/
+copying /paddle/build/Paddle/paddle/phi/api/ext/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/ext/
+copying /paddle/build/Paddle/paddle/phi/api/include/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/
+copying /paddle/build/Paddle/paddle/phi/api/all.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/
+copying /paddle/build/Paddle/paddle/phi/common/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/
+copying /paddle/build/Paddle/paddle/phi/core/enforce.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core/
+copying /paddle/build/Paddle/paddle/utils/string/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/utils/string/
+copying /paddle/build/Paddle/paddle/utils/string/tinyformat/tinyformat.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/utils/string/tinyformat/
+copying /paddle/build/Paddle/paddle/phi/core/visit_type.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core/
+copying /paddle/build/Paddle/paddle/phi/core/distributed/type_defs.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core/distributed/
+copying /paddle/build/Paddle/paddle/phi/core/distributed/auto_parallel/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core/distributed/auto_parallel/
+copying /paddle/build/Paddle/paddle/fluid/platform/init_phi.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/
+copying /paddle/build/Paddle/paddle/utils/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/utils/
+copying /paddle/build/Paddle/paddle/extension.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/
+copying /paddle/build/Paddle/paddle/pir/include/core/parser/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/parser/
+copying /paddle/build/Paddle/paddle/pir/include/core/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/
+copying /paddle/build/Paddle/paddle/pir/include/dialect/control_flow/ir/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/control_flow/ir/
+copying /paddle/build/Paddle/paddle/pir/include/dialect/shape/ir/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/ir/
+copying /paddle/build/Paddle/paddle/pir/include/dialect/shape/utils/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils/
+copying /paddle/build/Paddle/paddle/pir/include/pass/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass/
+copying /paddle/build/Paddle/paddle/pir/include/pattern_rewrite/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pattern_rewrite/
+copying /paddle/build/Paddle/paddle/fluid/pir/drr/include/*.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/drr/
+copying /paddle/build/Paddle/paddle/fluid/pir/utils/general_functions.h -> /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/utils/
+Change paddle header include path to adapt to inference api path
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/extension.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/init_phi.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/all.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/ext
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/ext/dispatch.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/ext/op_meta_info.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/ext/spmd_infer.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/ext/tensor_compat.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/api.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/context_pool.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/dll_decl.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/fused_api.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/operants_base.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/operants_manager.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/sparse_api.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/strings_api.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/tensor.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/tensor_operants.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/api/include/tensor_utils.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/amp_type_traits.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/backend.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/bfloat16.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/complex.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/cpstring_impl.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/data_type.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/datatype_traits.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/float16.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/int_array.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/memory_utils.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/place.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/port.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/pstring.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/reduce_type.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/scalar.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/tensor_ref.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/thread_data_registry.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/transform.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/type_promotion.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/type_safe_sign_math.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/common/type_traits.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core/enforce.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/phi/core/visit_type.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/attribute.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/attribute_base.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/block.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/block_argument.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/block_operand.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builder.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_attribute.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_attribute_storage.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_dialect.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_op.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_type.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_type_interfaces.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/builtin_type_storage.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/cast_utils.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/dialect.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/dialect_interface.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/dll_decl.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/interface_support.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/interface_value.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/ir_context.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/ir_mapping.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/ir_printer.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/iterator.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/op_base.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/op_info.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/op_operand.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/op_result.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/op_trait.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/operation.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/operation_utils.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/parameter.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/program.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/region.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/spin_lock.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/storage_manager.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/storage_manager_support.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/type.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/type_base.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/type_id.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/type_name.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/type_utils.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/utils.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/value.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/verify.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/visitors.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/parser
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/core/parser/ir_parser.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/control_flow/ir
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/control_flow/ir/cf_dialect.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/control_flow/ir/cf_interface.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/control_flow/ir/cf_op.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/control_flow/ir/cf_type.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/ir
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/ir/shape_attribute.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/ir/shape_attribute_storage.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/ir/shape_dialect.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/ir/shape_op.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils/dim_expr.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils/dim_expr_builder.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils/dim_expr_util.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils/shape_analysis.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/dialect/shape/utils/shape_or_data_expr.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/drr
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/drr/drr_match_context.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/drr/drr_pattern_base.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/drr/drr_pattern_context.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/drr/drr_rewrite_pattern.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass/analysis_manager.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass/pass.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass/pass_instrumentation.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass/pass_manager.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pass/pass_registry.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pattern_rewrite
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pattern_rewrite/frozen_rewrite_pattern_set.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pattern_rewrite/pattern_applicator.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pattern_rewrite/pattern_match.h
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/pattern_rewrite/pattern_rewrite_driver.h
+-- header path compat processing: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/utils
+-- header path compat processing complete: /paddle/build/Paddle/build/paddle_inference_install_dir/paddle/include/paddle/pir/utils/general_functions.h
+copying /paddle/build/Paddle/build/third_party/install/openblas/lib -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/openblas
+copying /paddle/build/Paddle/build/third_party/install/openblas/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/openblas
+copying /paddle/build/Paddle/build/third_party/install/gflags/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/gflags
+copying /paddle/build/Paddle/build/third_party/install/gflags/lib/libgflags.a -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/gflags/lib
+copying /paddle/build/Paddle/build/third_party/install/glog/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/glog
+copying /paddle/build/Paddle/build/third_party/install/glog/lib/libglog.a -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/glog/lib
+copying /paddle/build/Paddle/build/third_party/install/utf8proc/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/utf8proc
+copying /paddle/build/Paddle/build/third_party/install/utf8proc/lib/libutf8proc.a -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/utf8proc/lib
+copying /paddle/build/Paddle/build/third_party/install/cryptopp/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/cryptopp
+copying /paddle/build/Paddle/build/third_party/install/cryptopp/lib/libcryptopp.a -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/cryptopp/lib
+copying /paddle/build/Paddle/build/third_party/install/xxhash/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/xxhash
+copying /paddle/build/Paddle/build/third_party/install/xxhash/lib/libxxhash.a -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/xxhash/lib
+copying /paddle/build/Paddle/build/third_party/install/protobuf/include -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/protobuf
+copying /paddle/build/Paddle/build/third_party/install/protobuf/lib/libprotobuf.a -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/third_party/install/protobuf/lib
+copying /paddle/build/Paddle/paddle/fluid/inference/capi_exp/pd_*.h -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/paddle/include
+copying /paddle/build/Paddle/build/paddle/fluid/inference/capi_exp/libpaddle_inference_c.* -> /paddle/build/Paddle/build/paddle_inference_c_install_dir/paddle/lib
+[ 99%] Built target inference_lib_dist
+make: *** [Makefile:150: all] Error 2

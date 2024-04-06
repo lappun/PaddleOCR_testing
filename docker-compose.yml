@@ -1,0 +1,25 @@
+version: '3'
+services:
+  paddleocr:
+    image: paddleocr:2.6.0-ngc-trf-2110-latest
+    build: .
+    #image: nvcr.io/nvidia/l4t-jetpack:r35.4.1 
+    stdin_open: true
+    tty: true
+    network_mode: host
+    volumes:
+     - /tmp/argus_socket:/tmp/argus_socket
+     - /etc/enctune.conf:/etc/enctune.conf
+     - /etc/nv_tegra_release:/etc/nv_tegra_release
+     - /tmp/nv_jetson_model:/tmp/nv_jetson_model
+     - /tmp/.X11-unix/:/tmp/.X11-unix
+     - /tmp/.docker.xauth:/tmp/.docker.xauth            
+     - $PWD:/paddle
+    command: tail -f /dev/stdin
+    shm_size: '32gb'
+    devices:
+     - /dev/snd
+     - /dev/bus/usb
+    environment:
+     - DISPLAY=:0
+     - XAUTHORITY=/tmp/.docker.xauth 
